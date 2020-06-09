@@ -75,7 +75,7 @@ Daha sonra `camera.py` dosyasını komut satırına `python camera.py` yazarak b
 `main.py` dosyası içinde kamera ve MMS fonksiyonlarımızı sisteme tanıtmak için başlangıç kodlarını çağırıyoruz.</br></br>
 Mesafe sensöründen alınan değerlerin hesabını sensörün [datasheet (HC-SR04)](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf) 'ine bakarak hesaplıyoruz.</br>
 Mesafe sensörü kapının açıldığını algılarsa fotoğraf çekiyoruz. Kodların olduğu klasöre bu fotoğrafı kaydediyoruz. Ardından MMS gönderme fonksiyonunu çağırıyoruz.</br></br>
-MMS gönderme fonksiyonları için AT komutları kullanmamız gerekiyor. [SIMM800L'nin datasheet](https://cdn-shop.adafruit.com/datasheets/sim800_series_at_command_manual_v1.01.pdf)'den AT komutlarını incelemeliyiz.</br>
+MMS gönderme fonksiyonları için AT komutları kullanmamız gerekiyor. [SIM800L'nin datasheet](https://cdn-shop.adafruit.com/datasheets/sim800_series_at_command_manual_v1.01.pdf)'den AT komutlarını incelemeliyiz.</br>
 Ayrıca MMS göndermek için özel bir [doküman](https://cdn-shop.adafruit.com/datasheets/sim800_series_mms_application_note_v1.00.pdf) hazırlanmış oradaki işlemleri sırasıyla uygulamamız yeterli olacaktır.</br></br>
 MMS gönderme fonksiyonu içinde ilk önce modülü MMS moduna alma ayarlarını UART protokolü üzerinden sim modülümüze bildiriyoruz.</br>
 Sonrasında UART üzerinden çektiğimiz resimleri byte larına ayırarak gönderiyoruz.</br>
