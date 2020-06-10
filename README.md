@@ -89,7 +89,7 @@ Resim uart datası üzerinden modüle başarılı bir şekilde aktarıldıktan s
 
 ## Ugulama Aşaması   
 
-*`main.py` komutu komutsatırı üzerinden çalıştırıyoruz.
+*`main.py` komutu komut satırı üzerinden çalıştırıyoruz.
 *Kodumuz çalışmaya başladıktan sonra sürekli mesafe ölçümü yapacaktır.</br>
 *Mesafe sensörürünün önüne bir engel geldiğinde onu algılayacak ve sırasıyla aşağıdaki gibi fotoğraf çekme komutu ardından çekilen fotoğrafı MMS ile göndermek için bytelarına ayıracaktır.</br></br>
 <p align="center">
@@ -105,4 +105,4 @@ Resim uart datası üzerinden modüle başarılı bir şekilde aktarıldıktan s
   <img width="700" height="700" src="https://github.com/bnymnsogut/GomuluMobilProjesi_MMS/blob/master/Resimler/mms_geldi.jpg">
 </p> 
 
-*Ayrıca SMS ve MMS kodlarını sizler ile paylaşıyorum. [Proje Youtube Video Linki](https://youtu.be/WtqSSz-gh94) 'de nasıl kullanılacağına dair bilgi verdim.</br>
+*Ayrıca SMS ve EMAIL kodlarını sizler ile paylaşıyorum. [Proje Youtube Video Linki](https://youtu.be/WtqSSz-gh94) 'de nasıl kullanılacağına dair bilgi verdim.</br>
