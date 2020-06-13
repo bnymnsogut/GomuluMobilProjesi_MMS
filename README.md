@@ -1,4 +1,4 @@
-# Raspberry Pi ile Kapı Güvenlik Sistemi </br>(SIM800L modülü ile MMS, EMAIL yoluyla resim gönderme)
+# Raspberry Pi ile Kapı Güvenlik Sistemi </br>(SIM800L modülü ile MMS, Email yoluyla resim gönderme)
 <img align="right" src="https://github.com/bnymnsogut/GomuluMobilProjesi_MMS/blob/master/Resimler/genel-bakis.jpg">
 ARM mimarisine sahip bir mikrodenetleyici olan Raspberry Pi kartı ile HC-SR04 Ultrasonik Mesafe Sensörü kullanılarak kapının açılıp açılmadığı kontrol edilip, kapı izinsiz açıldığında kameradan fotoğraf çekilip anlık olarak kullanıcıya e-posta ayrıca SiM800L Modülü kullanılarak sms ve mms gönderilecektir.
 
